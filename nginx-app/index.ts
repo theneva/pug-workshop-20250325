@@ -42,7 +42,10 @@ const nginxConfigMap = new kubernetes.core.v1.ConfigMap(
 const nginxDeployment = new kubernetes.apps.v1.Deployment(
   'nginxDeployment',
   {
-    metadata: { name: 'nginx-deployment' },
+    metadata: {
+      annotations: { 'reloader.stakater.com/auto': 'true' },
+      name: 'nginx-deployment',
+    },
     spec: {
       replicas: 1,
       selector: { matchLabels: { app: 'nginx' } },
@@ -67,7 +70,7 @@ const nginxDeployment = new kubernetes.apps.v1.Deployment(
             {
               name: 'nginx-html',
               configMap: {
-                name: nginxConfigMap.metadata.name,
+                name: 'nginx-config',
                 items: [{ key: 'index.html', path: 'index.html' }],
               },
             },
