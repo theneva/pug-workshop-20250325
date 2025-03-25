@@ -97,3 +97,12 @@ export const serviceName = nginxService.metadata.apply(
   (metadata) => metadata.name,
 );
 export const loadBalancer = nginxService.status.loadBalancer;
+
+const reloader = new kubernetes.helm.v3.Release(
+  'nginx-app-reloader',
+  {
+    chart: 'reloader',
+    repositoryOpts: { repo: 'https://stakater.github.io/stakater-charts' },
+  },
+  { provider: doK8SProvider },
+);
