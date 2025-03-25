@@ -1,6 +1,6 @@
 config:
-  workshop-20250325:nodeCount: "2"
-  workshop-20250325:region: lon1
+  pug-cluster:nodeCount: "2"
+  pug-cluster:region: lon1
   digitalocean:token:
     value:
       secure: AAABAE9kBasv2wopjLSoYp+qpCVYlQtLZ4hK8w+PvUXsfsRWfaS12kTybOJJr9gySgvp0RScBXWg5bXRdu8hj71BWMV34Je2HNnfMOxYV+DYRkXAC2nzzXnPblOEEC6ea8C//UU4zg==

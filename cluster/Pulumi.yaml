@@ -1,4 +1,4 @@
-name: workshop-20250325
+name: pug-cluster
 description: Blah
 runtime:
   name: nodejs
