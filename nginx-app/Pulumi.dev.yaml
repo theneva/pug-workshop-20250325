@@ -1,3 +1,3 @@
 config:
   nginx-app:nginxTitle: Hi, Simen! :D
-  nginx-app:nginxBody: "Hi, Simen! \U0001F604\U0001F604\U0001F604\U0001F604\U0001F604\U0001F604\U0001F604\U0001F604\U0001F604"
+  nginx-app:nginxBody: "Hi, Simen!"
