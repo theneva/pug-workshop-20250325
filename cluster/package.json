@@ -1,5 +1,5 @@
 {
-    "name": "workshop-20250325",
+    "name": "cluster",
     "main": "index.ts",
     "devDependencies": {
         "@types/node": "^18",
