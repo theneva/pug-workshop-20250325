@@ -1,0 +1,3 @@
+config:
+  workshop-20250325:nodeCount: "2"
+  workshop-20250325:region: lon1
