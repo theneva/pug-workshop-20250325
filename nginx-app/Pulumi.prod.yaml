@@ -1,3 +1,2 @@
-config:
-  nginx-app:nginxTitle: PROD!!!!!!
-  nginx-app:nginxBody: Hello from PROD!!!!!!
+environment:
+  - pug-nginx-app/prod

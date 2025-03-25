@@ -1,3 +1,2 @@
-config:
-  nginx-app:nginxTitle: Hi, Simen! :D
-  nginx-app:nginxBody: "Hi, Simen!"
+environment:
+  - pug-nginx-app/dev

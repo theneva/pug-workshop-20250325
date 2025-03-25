@@ -1,6 +1,6 @@
 config:
   pug-cluster:region: fra1
-  pug-cluster:nodeCount: "1"
+  pug-cluster:nodeCount: '1'
   digitalocean:token:
     value:
       secure: AAABABWBb2KMr1XBROL80DHUfR8xojVNYWZnBEOpO7WVUJtuyU8XRedVzPJ5B+JcU/9LPDoJN8tt7nzp14NFNCbwx3PBdb06czyHW1fGjvsBEBIcVB4N6ruc6GcvTyVk3/34FNd2ig==
